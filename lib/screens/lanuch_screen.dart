@@ -12,7 +12,7 @@ class _LaunchScreenState extends State<LaunchScreen> {
     // TODO: implement initState
     super.initState();
     Future.delayed(const Duration(seconds: 3), () {
-      Navigator.pushReplacementNamed(context, 'on_boarding_screen');
+      Navigator.pushReplacementNamed(context, '/on_boarding_screen');
     });
   }
 
@@ -21,7 +21,7 @@ class _LaunchScreenState extends State<LaunchScreen> {
     return Scaffold(
       body: Container(
         child: Center(child:
-        Image.asset('images/logo Hackton 1.png',)
+        Image.asset('images/logo2.jpeg',width: 220,)
         ),
 
 
